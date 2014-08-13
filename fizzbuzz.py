@@ -1,5 +1,7 @@
-#comment
-for i in range(1,101):
+
+my_input = int(raw_input("Enter a number:"))
+print type(int(my_input))
+for i in range(my_input, 101):
     if i % 3 == 0:
 	print "fizz",
 	continue
